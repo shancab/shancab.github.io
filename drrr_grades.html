@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+  <title>DRRR Grade Calculator</title>
+</head>
+<body>
+  <header class="nav-header">
+    <nav>
+      <button class="hamburger">&#9776;</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="averagegrade.html">Average Grade</a></li>
+        <li class="dropdown">
+          <a href="#" class="nav-active">Grade</a>
+          <ul class="dropdown-content">
+            <li><a href="pr1_grades.html">Practical Research 1</a></li>
+            <li><a href="stats_grades.html">Statistics and Probability</a></li>
+            <li><a href="rw_grades.html">Reading and Writing</a></li>
+            <li><a href="pagbasa_grades.html">Pagbasa</a></li>
+            <li><a href="drrr_grades.html">DRRR</a></li>
+            <li><a href="bascal_grades.html">Basic Calculus</a></li>
+            <li><a href="philo_grades.html">Philosophy</a></li>
+            <li><a href="lit_grades.html">21st Century Literature</a></li>
+            <li><a href="emptech_grades.html">Empowerment Technologies</a></li>
+          </ul>
+        </li>
+        <li><a href="developer.html">Developer</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+  <main>
+    <h1 class="page-title">DRRR Grade Calculator</h1>
+    <form id="drrr-grades-form" class="form-styled">
+        <h3>Written Work</h3>
+        <input type="number" id="drrr_ww1" placeholder="Enter Written Work 1 score" required>
+        <input type="number" id="drrr_ww1max" placeholder="Enter max score for Written Work 1" required>
+        <input type="number" id="drrr_ww2" placeholder="Enter Written Work 2 score" required>
+        <input type="number" id="drrr_ww2max" placeholder="Enter max score for Written Work 2" required>
+        <input type="number" id="drrr_ww3" placeholder="Enter Written Work 3 score" required>
+        <input type="number" id="drrr_ww3max" placeholder="Enter max score for Written Work 3" required>
+        <input type="number" id="drrr_ww4" placeholder="Enter Written Work 4 score" required>
+        <input type="number" id="drrr_ww4max" placeholder="Enter max score for Written Work 4" required>
+        
+        <h3>Performance Task</h3>
+        <input type="number" id="drrr_peta1" placeholder="Enter Performance Task 1 score" required>
+        <input type="number" id="drrr_peta1max" placeholder="Enter max score for Performance Task 1" required>
+        <input type="number" id="drrr_peta2" placeholder="Enter Performance Task 2 score" required>
+        <input type="number" id="drrr_peta2max" placeholder="Enter max score for Performance Task 2" required>
+        <input type="number" id="drrr_peta3" placeholder="Enter Performance Task 3 score" required>
+        <input type="number" id="drrr_peta3max" placeholder="Enter max score for Performance Task 3" required>
+        <input type="number" id="drrr_peta4" placeholder="Enter Performance Task 4 score" required>
+        <input type="number" id="drrr_peta4max" placeholder="Enter max score for Performance Task 4" required>
+
+        <h3>Quarterly Assessments</h3>
+        <input type="number" id="drrr_qa1" placeholder="Enter Midterm Examination score" required>
+        <input type="number" id="drrr_qa1max" placeholder="Enter max score for Midterm Examination" required>
+        <input type="number" id="drrr_qa2" placeholder="Enter Final Examination score" required>
+        <input type="number" id="drrr_qa2max" placeholder="Enter max score for Final Examination" required>
+
+        <button type="submit">Calculate INITIAL DRRR Grade</button>
+    </form>
+    <div id="drrr-result"></div>
+    <script src="scripts6.js"></script>
+  </main>
+  </div>
+</body>
+</html>
+
